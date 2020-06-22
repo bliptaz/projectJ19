@@ -47,7 +47,7 @@ a {
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
-  color: blue;
+  color: black;
 }
 
 .btn-wrapper {
@@ -118,7 +118,7 @@ header {
 }
 
 .header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(4, 58, 74, 0.3);
 }
 
 .lesson-wrapper {
@@ -132,7 +132,7 @@ header {
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: black;
 }
 
 .heading span {
@@ -159,7 +159,7 @@ header {
   display: inline-block;
   margin-top: 40px;
   font-size: 15px;
-  color: #2096BA;
+  color: #043a4a;
 }
 
 .heading h3 {
@@ -192,13 +192,15 @@ footer img {
 }
 
 footer p {
-  color: #b3aeb5;
+  color: black;
   font-size: 12px;
 }
 
 footer {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 20px;
+  background-color: #dfe4ea;
+  color: black;
 }
 
 /* Ketik code Anda dibawah */
@@ -210,15 +212,21 @@ footer {
   display: none;
 }
 
-.contact-form {
-  padding-top: 100px;
+input {
+  width: 350px;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
 }
 
-/* Tambahkan CSS untuk tags <input> dan <textarea> */
-input, textarea {
-  width: 400px;
+textarea {
+  width: 350px;
+  height: 80px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
@@ -226,6 +234,48 @@ input, textarea {
 
 /* Tambahkan CSS untuk contact-submit */
 .contact-submit {
-  background-color:#dee7ec;
-  color:#889eab;
+  background-color: #2096BA;
+  color: black;
+  border: 10px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: row;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.flex-column p {
+  font-size: 12px;
+}
+
+.flex-column a {
+  text-decoration: none;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction:column;
+  padding: 10px;
+  /* border: 1px solid #fedede; */
+}
+
+.row1 {
+  flex-basis: 60%;
+
+}
+
+.row2 {
+  flex-basis: 40%;
+
 }
