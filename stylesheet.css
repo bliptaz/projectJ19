@@ -31,7 +31,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://raw.githubusercontent.com/bliptaz/tesarp.github.io/master/linkedin-sales-navigator-UK1N66KUkMk-unsplash.jpg);
+  background-image: url(top-page.jpg);
   background-size: cover;
   text-align: center;
 }
@@ -125,7 +125,7 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #EAB543;
   text-align: center;
 }
 
@@ -135,10 +135,9 @@ header {
   color: #5f5d60;
 }
 
-.heading h2 {
-  font-weight: normal;
+.heading span {
+  color: red;
 }
-
 .lesson {
   float: left;
   width: 25%;
@@ -148,19 +147,19 @@ header {
   position: relative;
 }
 
-.lesson-icon p {
+.lesson-icon h3 {
   position: absolute;
-  top: 44%;
+  top: 105%;
   width: 100%;
-  color: white;
+  color: black;
 }
 
 .txt-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 40px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #2096BA;
 }
 
 .heading h3 {
@@ -171,13 +170,15 @@ header {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  background-color: #9AECDB;
 }
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: #FEA47F;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  box-shadow: 0 7px #F97F51;
+  color: black;
 }
 
 .message:active {
@@ -209,6 +210,22 @@ footer {
   display: none;
 }
 
-.fa {
-  color: white;
+.contact-form {
+  padding-top: 100px;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  background-color:#dee7ec;
+  color:#889eab;
 }
