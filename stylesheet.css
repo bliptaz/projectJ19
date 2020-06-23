@@ -239,13 +239,15 @@ textarea {
   background-color: #2096BA;
   color: black;
   border: 10px 0px;
+  padding: 20px;
   text-align: center;
   cursor: pointer;
+  box-shadow: 0 3px #0b4f63;
 }
 
 .contact-submit:active {
   position: relative;
-  top: 7px;
+  top: 3px;
   box-shadow: none;
 }
 

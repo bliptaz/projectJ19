@@ -2,15 +2,10 @@
 @media all and (max-width: 1000px) {
   .top-wrapper h1 {
     font-size: 36px;
-    color: red;
   }
 
   .heading h2 {
     font-size: 24px;
-  }
-
-  .container {
-    color: #d35400;
   }
 
   .product {
@@ -47,11 +42,16 @@
   .top-wrapper h1 {
     font-size: 24px;
     line-height: 36px;
+    color: red;
   }
 
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .container {
+    color: #d35400;
   }
 
   .product {
