@@ -136,6 +136,7 @@ header {
 .heading span {
   color: red;
 }
+
 .product {
   float: left;
   width: 25%;
@@ -287,7 +288,7 @@ textarea {
   margin: 5px 2px;
 }
 
-.row1 fa:hover {
+.row1 a:hover {
     opacity: 0.7;
 }
 
