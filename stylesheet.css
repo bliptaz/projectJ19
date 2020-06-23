@@ -278,36 +278,3 @@ textarea {
 .row2 {
   flex-basis: 40%;
 }
-
-.row1 fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.row1 a:hover {
-    opacity: 0.7;
-}
-
-.row1 fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.row1 fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.row1 fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.row1 fa-google {
-  background: #dd4b39;
-  color: white;
-}
