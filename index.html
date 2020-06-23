@@ -23,6 +23,9 @@
           <a href="#">Log in</a>
         </div>
       </div>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
     </header>
     <div class="top-wrapper">
       <div class="container">
@@ -87,7 +90,9 @@
     <footer>
       <div class="flex-column">
         <div class="flex-row row1">
-          <img src="logo.png" class="logo">
+          <div class="row-logo">
+            <img src="logo.png" class="logo2">
+          </div>
           <p>Copyright &#169; 2020 Project J19 </p>
         </div>
         <div class="flex-row row2">
@@ -101,5 +106,16 @@
           </div>
         </div>
     </footer>
+    <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
   </body>
 </html>
